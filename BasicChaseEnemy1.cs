@@ -19,7 +19,7 @@ public class BasicChaseAI : BaseEnemy
     void Update()
     {
         AlignRotationWithPlayer();
-        RepelFromOtherEntities();
+        RepelFromOtherEntities();  // see BasicEntityRepulsion1.cs
         ChasePlayer();
     }
 
