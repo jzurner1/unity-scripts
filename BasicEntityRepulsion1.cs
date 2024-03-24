@@ -1,6 +1,8 @@
 /*
 Remember to tag entities with the "Entity" tag
 Also, create the `repulsionRadius`, `repulsionForce`, and `damping` variable
+
+Note that this will cause significant lag with a large number of entities
 */
 
 public void RepelFromOtherEntities()
